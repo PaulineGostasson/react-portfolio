@@ -12,19 +12,19 @@ When I'm not coding, you might find me dancing, doing gymnastics, or diving into
 ## 🚀 Technologies & Tools
 This portfolio is built using:
 
-React.js
-CSS Modules
-JavaScript (ES6+)
-HTML5
-Git & GitHub
-Responsive Web Design
+- React.js
+- CSS Modules
+- JavaScript (ES6+)
+- HTML5
+- Git & GitHub
+- Responsive Web Design
 
 ## 🌟 Features
 
-Dark/Light Mode: Switch between light and dark themes to suit your preference.
-Responsive Design: The website is fully responsive and adjusts to any screen size.
-Interactive Components: The buttons, links, and other components are styled and animated to enhance user interaction.
-Downloadable CV: You can download my CV directly from the website!
+* Dark/Light Mode: Switch between light and dark themes to suit your preference.
+* Responsive Design: The website is fully responsive and adjusts to any screen size.
+* Interactive Components: The buttons, links, and other components are styled and animated to enhance user interaction.
+* Downloadable CV: You can download my CV directly from the website!
 
 ## 📂 Folder Structure
 Here is the basic structure of the project:
@@ -61,6 +61,6 @@ npm run dev
 ## 🔗 Let's Connect
 Feel free to reach out if you'd like to collaborate or chat about frontend development:
 
-Email: gostassonpauline@gmail.com
-LinkedIn: linkedin.com/in/paulinegöstasson
-GitHub: github.com/PaulineGostasson
+*Email: gostassonpauline@gmail.com
+*LinkedIn: linkedin.com/in/paulinegöstasson
+*GitHub: github.com/PaulineGostasson
