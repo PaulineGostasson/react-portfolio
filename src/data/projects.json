@@ -1,25 +1,17 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
+      "title": "Dictionary",
+      "imageSrc": "projects/dictionary.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["React", "JavaScript", "CSS"],
+      "demo": "https://my-react-dictionary.vercel.app/",
+      "source": "https://github.com/PaulineGostasson/my-react-dictionary"
     },
     {
       "title": "Project B",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
