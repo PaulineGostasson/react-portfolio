@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Pau</h1>
         <p className={styles.description}>
-          I am a passionate frontend developer with a focus on creating modern, responsive, and user-friendly web applications. 
+          I am a passionate Frontend developer with a focus on creating modern, responsive, and user-friendly web applications. 
           With a strong foundation in JavaScript, React, and CSS, I love turning complex ideas into seamless experiences. 
           Let’s build something amazing together!
         </p>
