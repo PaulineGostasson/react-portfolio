@@ -1,6 +1,6 @@
 # React + Vite
 
-Pauline Göstasson - Portfolio
+# Pauline Göstasson - Portfolio
 
 Welcome to my portfolio! This is a project showcasing my skills, experiences, and projects as a frontend developer. It reflects my journey in the world of web development, highlighting my expertise in JavaScript, React, CSS, and user-centered design.
 
