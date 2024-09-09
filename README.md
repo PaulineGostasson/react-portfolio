@@ -61,6 +61,6 @@ npm run dev
 ## 🔗 Let's Connect
 Feel free to reach out if you'd like to collaborate or chat about frontend development:
 
-*Email: gostassonpauline@gmail.com
-*LinkedIn: linkedin.com/in/paulinegöstasson
-*GitHub: github.com/PaulineGostasson
+* Email: gostassonpauline@gmail.com
+* LinkedIn: linkedin.com/in/paulinegöstasson
+* GitHub: github.com/PaulineGostasson
