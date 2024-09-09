@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Light Mode (default) */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-primary: #ffb6c1;
+  --color-secondary: #ffe4e1;
+  --color-gradient-start: rgba(255, 182, 193, 1); /* Light Pink */
+  --color-gradient-end: rgba(255, 224, 224, 0);   /* Light Blush */
+}
+
+/* Dark Mode */
+body.dark {
+  --color-bg: #2c2c2c;
+  --color-text: #ffffff;
+  --color-primary: #ff6fb5;
+  --color-secondary: #db7093;
+  --color-gradient-start: rgba(255, 105, 180, 1); /* Hot Pink */
+  --color-gradient-end: rgba(199, 21, 134, 0);    /* Medium Violet Red */
+}
+
+/* Apply background and text colors globally */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style the button */
+button {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}

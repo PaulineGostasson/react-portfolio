@@ -1,0 +1,26 @@
+:root {
+    /* Light Theme Colors */
+    --color-text: #333333;
+    --color-background: #ffffff;
+    --color-primary: #ffb6c1; /* Light Pink */
+    --color-secondary: #ffe4e1; /* Lavender Blush */
+    --color-accent: #fff0f5; /* Lavender */
+  
+    /* Light Theme Gradient */
+    --color-gradient-start: rgba(255, 182, 193, 1); /* Light Pink */
+  --color-gradient-end: rgba(255, 224, 224, 1);   /* Light Blush */
+  }
+  
+  .dark-theme {
+    /* Dark Theme Colors */
+    --color-text: #ffffff;
+    --color-background: #2c2c2c;
+    --color-primary: #ff69b4; /* Hot Pink */
+    --color-secondary: #db7093; /* Pale Violet Red */
+    --color-accent: #c71585; /* Medium Violet Red */
+  
+    /* Dark Theme Gradient */
+    --color-gradient-start: rgba(255, 105, 180, 1); /* Hot Pink */
+    --color-gradient-end: rgba(199, 21, 133, 1);    /* Medium Violet Red */
+  }
+  

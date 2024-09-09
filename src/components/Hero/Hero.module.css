@@ -1,0 +1,112 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 10%;
+    padding: 20px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    position: relative;
+  }
+  
+  .content {
+    flex: 1;
+    max-width: 600px;
+    color: var(--color-text);
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust this for spacing between the buttons */
+    margin-top: 20px; /* Adjust the space between the buttons and content */
+  }
+  
+  .contactBtn,
+  .downloadCvBtn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactBtn:hover,
+  .downloadCvBtn:hover {
+    background-color: var(--color-secondary);
+  }
+  
+  .heroImg {
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+    animation: float 3s ease-in-out infinite; /* Floating animation */
+    transition: transform 0.5s ease;
+  }
+
+
+  /* Floating animation for the hero image */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Float up */
+    }
+    100% {
+      transform: translateY(0); /* Float back down */
+    }
+  }
+  
+ /* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack content vertically */
+      align-items: center;
+    }
+  
+    .heroImg {
+      margin-left: 0;
+      margin-bottom: 20px;
+      order: -1; /* Move image on top */
+    }
+  
+    .title {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .description {
+      text-align: center;
+    }
+  
+    .contactBtn,
+    .downloadCvBtn {
+        margin: 20px auto; /* Ensures equal margin above and below and centers horizontally */
+        display: flex;     /* Change display to flex */
+        justify-content: center; /* Centers the content inside the button */
+        align-items: center; /* Ensures the button content is vertically centered */
+        width: fit-content; /* Shrinks the button width to fit its content */
+    }
+  }

@@ -1,0 +1,128 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    z-index: 2;
+    margin: 0 10%;
+    
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: center; /* Align the text vertically */
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menuItems {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .menuItems a {
+    font-size: 18px;
+    color: var(--color-text);
+    text-decoration: none;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--color-text);
+    margin-left: auto; /* Push the hamburger to the right */
+  }
+
+  .themeToggle {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  
+
+/* Mobile Styles */
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 0; /* Align within screen */
+    }
+
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 20px;
+    z-index: 3;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 2;
+    transition: transform 0.3s ease;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    /* Use the CSS variables for background colors and gradients */
+    background-color: var(--color-primary); /* Replace with your primary color variable */
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    color: var(--color-text); /* Match text color */
+  }
+
+.menuOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    /* Use the CSS variables for background colors and gradients */
+    background-color: var(--color-primary); /* Replace with your primary color variable */
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    position: absolute;
+    top: 70px;
+    right: 10%;
+    width: auto;
+    color: var(--color-text); /* Match text color */
+}
+
+
+  .hamburger {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--color-text);
+  }
+
+  .themeToggle {
+    margin-left: 0;
+    margin-top: 20px;
+    align-self: center;
+  }
+}
