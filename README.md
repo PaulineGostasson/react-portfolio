@@ -30,17 +30,16 @@ This portfolio is built using:
 Here is the basic structure of the project:
 
 ├── src
-│   ├── assets             - Images, icons, and other assets
-│   ├── components         - Reusable components (e.g., Hero, About, Projects, Navbar)
-│   ├── styles             - Global and component-specific styles
-│   ├── utils              - Helper functions (e.g., image URL functions)
-│   ├── App.jsx            - Main app file
-│   ├── index.js           - Entry point
-│   └── vars.css           - CSS variables for theme and design consistency
+│   ├── assets             
+│   ├── components                     
+│   ├── data              
+│   ├── App.jsx            
+│   ├── index.js           
+│   └── vars.css           
 ├── public
-│   ├── index.html         - Main HTML file
-│   └── pauline_cv.pdf     - Downloadable CV file
-└── README.md              - This file
+│   ├── index.html         
+│   └── pauline_cv.pdf     
+└── README.md              
 
 ## 📄 How to Run Locally
 To run this project on your local machine:
