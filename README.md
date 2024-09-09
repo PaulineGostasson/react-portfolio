@@ -1,8 +1,109 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pauline Göstasson - Portfolio
 
-Currently, two official plugins are available:
+Welcome to my portfolio! This is a project showcasing my skills, experiences, and projects as a frontend developer. It reflects my journey in the world of web development, highlighting my expertise in JavaScript, React, CSS, and user-centered design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💼 About Me
+I am a passionate frontend developer with a focus on creating modern, responsive, and user-friendly web applications. With a strong foundation in web technologies, including React, TypeScript, and CSS, I love turning complex ideas into seamless experiences. In addition to my technical skills, I bring a solid background in customer service, which helps me create solutions that meet the users' needs.
+
+When I'm not coding, you might find me dancing, doing gymnastics, or diving into creative projects. I thrive in collaborative environments and am always eager to learn and adapt to new technologies.
+
+🚀 Technologies & Tools
+This portfolio is built using:
+
+React.js
+CSS Modules
+JavaScript (ES6+)
+HTML5
+Git & GitHub
+Responsive Web Design
+
+🌟 Features
+
+Dark/Light Mode: Switch between light and dark themes to suit your preference.
+Responsive Design: The website is fully responsive and adjusts to any screen size.
+Interactive Components: The buttons, links, and other components are styled and animated to enhance user interaction.
+Downloadable CV: You can download my CV directly from the website!
+
+📂 Folder Structure
+Here is the basic structure of the project:
+
+├── src
+│   ├── assets             # Images, icons, and other assets
+│   ├── components         # Reusable components (e.g., Hero, About, Projects, Navbar)
+│   ├── styles             # Global and component-specific styles
+│   ├── utils              # Helper functions (e.g., image URL functions)
+│   ├── App.jsx            # Main app file
+│   ├── index.js           # Entry point
+│   └── vars.css           # CSS variables for theme and design consistency
+├── public
+│   ├── index.html         # Main HTML file
+│   └── pauline_cv.pdf     # Downloadable CV file
+└── README.md              # This file
+
+
+Sure! Here's a personalized README.md template that you can use for your project:
+
+Pauline Göstasson - Portfolio
+Welcome to my portfolio! This is a project showcasing my skills, experiences, and projects as a frontend developer. It reflects my journey in the world of web development, highlighting my expertise in JavaScript, React, CSS, and user-centered design.
+
+💼 About Me
+I am a passionate frontend developer with a focus on creating modern, responsive, and user-friendly web applications. With a strong foundation in web technologies, including React, TypeScript, and CSS, I love turning complex ideas into seamless experiences. In addition to my technical skills, I bring a solid background in customer service, which helps me create solutions that meet the users' needs.
+
+When I'm not coding, you might find me dancing, doing gymnastics, or diving into creative projects. I thrive in collaborative environments and am always eager to learn and adapt to new technologies.
+
+🚀 Technologies & Tools
+This portfolio is built using:
+
+React.js
+CSS Modules
+JavaScript (ES6+)
+HTML5
+Git & GitHub
+Responsive Web Design
+TypeScript (for more complex projects)
+🌟 Features
+Dark/Light Mode: Switch between light and dark themes to suit your preference.
+Responsive Design: The website is fully responsive and adjusts to any screen size.
+Interactive Components: The buttons, links, and other components are styled and animated to enhance user interaction.
+Downloadable CV: You can download my CV directly from the website!
+📂 Folder Structure
+Here is the basic structure of the project:
+
+bash
+Kopiera kod
+├── src
+│   ├── assets             # Images, icons, and other assets
+│   ├── components         # Reusable components (e.g., Hero, About, Projects, Navbar)
+│   ├── styles             # Global and component-specific styles
+│   ├── utils              # Helper functions (e.g., image URL functions)
+│   ├── App.jsx            # Main app file
+│   ├── index.js           # Entry point
+│   └── vars.css           # CSS variables for theme and design consistency
+├── public
+│   ├── index.html         # Main HTML file
+│   └── pauline_cv.pdf     # Downloadable CV file
+└── README.md              # This file
+📄 How to Run Locally
+To run this project on your local machine:
+
+Clone this repository:
+
+git clone https://github.com/PaulineGostasson/portfolio.git
+
+Navigate to the project folder:
+cd portfolio
+
+Install the dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+🔗 Let's Connect
+Feel free to reach out if you'd like to collaborate or chat about frontend development:
+
+Email: gostassonpauline@gmail.com
+LinkedIn: linkedin.com/in/paulinegöstasson
+GitHub: github.com/PaulineGostasson
