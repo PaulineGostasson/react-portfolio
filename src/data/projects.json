@@ -1,18 +1,19 @@
 [
     {
-      "title": "Dictionary",
+      "title": "Dictionary App",
       "imageSrc": "projects/dictionary.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "A feature-rich Dictionary app built using React. Users can search for almost any word, bookmark their favorites, and listen to pronunciations.",
       "skills": ["React", "JavaScript", "CSS"],
       "demo": "https://my-react-dictionary.vercel.app/",
       "source": "https://github.com/PaulineGostasson/my-react-dictionary"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "N-Puzzle Game",
+      "imageSrc": "projects/n-puzzle.png",
+      "description": "A modernized version of the classic 15-puzzle game, built using React. While the CSS isn't fully optimized, this project highlights my problem-solving and coding skills. The goal is to arrange the tiles in numerical order with an empty space at the bottom-right corner.",
+      "skills": ["React", "CSS", "JavaScript"],
+      "demo": "https://n-puzzle2-0.vercel.app",
+      "source": "https://github.com/PaulineGostasson/n-puzzle2.0"
     }
   ]
+  
