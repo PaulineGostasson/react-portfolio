@@ -109,6 +109,8 @@
 
   .links {
     gap: 10px; 
+    flex-direction: row; /* Align icons in a row */
+    justify-content: space-around;
   }
 
   /* Hide the text inside the links but keep icons visible */
