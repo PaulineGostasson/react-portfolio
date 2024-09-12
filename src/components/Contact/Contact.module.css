@@ -9,21 +9,21 @@
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
-  gap: 20px; /* Increased gap slightly for spacing */
+  gap: 20px; 
 }
 
 .text h2 {
-  font-size: 70px; /* Reduced for a more consistent size */
+  font-size: 70px; 
   font-weight: 700;
   letter-spacing: 4px;
-  margin-bottom: 20px; /* Added margin for spacing */
+  margin-bottom: 20px; 
 }
 
 .text p {
-  font-size: 35px; /* Reduced for more balanced text size */
+  font-size: 35px; 
   font-weight: 400;
   letter-spacing: 2px;
-  line-height: 1.4; /* Improved readability with better line height */
+  line-height: 1.4; 
 }
 
 .links {
@@ -31,50 +31,50 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 20px; /* Slightly reduced gap */
+  gap: 20px; 
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 20px; /* Consistent gap for spacing */
+  gap: 20px; 
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 28px; /* Slight reduction for better scaling */
+  font-size: 28px; 
   font-weight: 400;
   letter-spacing: 1.5px;
-  transition: color 0.3s ease; /* Smooth transition effect for hover */
+  transition: color 0.3s ease;
 }
 
 .link a:hover {
-  color: var(--color-primary); /* Add hover effect */
+  color: var(--color-primary);
 }
 
 /* Tablet and smaller devices */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 30px; /* More spacing between sections on mobile */
-    padding: 40px 5%; /* Reduced padding for mobile */
-    width: 100%; /* Adjusted width to avoid horizontal scroll */
+    gap: 30px; 
+    padding: 40px 5%; 
+    width: 100%; 
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Center text for smaller screens */
+    text-align: center; 
   }
 
   .text h2 {
-    font-size: 50px; /* Smaller heading for mobile */
+    font-size: 50px; 
   }
 
   .text p {
-    font-size: 28px; /* Adjusted font size for better readability */
+    font-size: 28px; 
     line-height: 1.3;
   }
 
@@ -83,60 +83,44 @@
   }
 
   .link {
-    gap: 15px; /* Reduced gap for tighter layout on mobile */
+    gap: 15px;
   }
 
   .link a {
-    font-size: 26px; /* Slightly reduced size on mobile */
+    font-size: 26px; 
   }
 }
 
 /* Smartphones with smaller screens */
 @media screen and (max-width: 480px) {
   .container {
-    padding: 30px 5%; /* Further reduced padding */
-    gap: 15px; /* Reduced gap */
+    padding: 30px 5%; 
+    gap: 15px; 
   }
 
   .text h2 {
-    font-size: 40px; /* Smaller heading for small devices */
+    font-size: 40px; 
   }
 
   .text p {
-    font-size: 24px; /* Smaller paragraph size */
-    line-height: 1.3; /* Slightly tighter line height */
+    font-size: 24px; 
+    line-height: 1.3; 
   }
 
   .links {
-    gap: 10px; /* Reduced gap between links */
+    gap: 10px; 
   }
 
+  /* Hide the text inside the links but keep icons visible */
   .link a {
-    font-size: 22px; /* Smaller font for links */
-  }
-}
-
-/* Very small devices (e.g. small smartphones) */
-@media screen and (max-width: 360px) {
-  .container {
-    padding: 20px 3%; /* Minimal padding */
-    gap: 10px; /* Reduced gap */
+    font-size: 0; /* This hides the text */
   }
 
-  .text h2 {
-    font-size: 36px; /* Smaller heading */
+  .link a::before {
+    font-size: 22px; /* Ensure icons remain visible and properly sized */
   }
 
-  .text p {
-    font-size: 20px; /* Smaller paragraph size */
-    line-height: 1.3; /* Keep line height consistent */
-  }
-
-  .links {
-    gap: 8px; /* Reduced gap between links */
-  }
-
-  .link a {
-    font-size: 20px; /* Further reduced font size for links */
+  .link a:hover {
+    color: var(--color-primary); /* Ensure hover effect still applies to icons */
   }
 }

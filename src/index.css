@@ -30,14 +30,12 @@ body.dark {
   --color-gradient-end: rgba(199, 21, 134, 0);    /* Medium Violet Red */
 }
 
-/* Apply background and text colors globally */
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Style the button */
 button {
   background-color: var(--color-primary);
   color: var(--color-text);

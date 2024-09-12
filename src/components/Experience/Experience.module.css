@@ -75,7 +75,7 @@
     
     border-radius: 10px;
     padding: 24px;
-    color: var(--color-text); /* Ensure text color adapts to the theme */
+    color: var(--color-text); 
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   

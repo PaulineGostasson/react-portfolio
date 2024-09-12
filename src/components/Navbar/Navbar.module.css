@@ -16,7 +16,7 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
-    align-items: center; /* Align the text vertically */
+    align-items: center; 
   }
   
   .menu {
@@ -57,7 +57,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 25px 0; /* Align within screen */
+        padding: 25px 0; 
     }
 
 
@@ -87,11 +87,10 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    /* Use the CSS variables for background colors and gradients */
-    background-color: var(--color-primary); /* Replace with your primary color variable */
+    background-color: var(--color-primary); 
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    color: var(--color-text); /* Match text color */
+    color: var(--color-text); 
   }
 
 .menuOpen {
@@ -100,8 +99,7 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    /* Use the CSS variables for background colors and gradients */
-    background-color: var(--color-primary); /* Replace with your primary color variable */
+    background-color: var(--color-primary); 
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     z-index: 1;
@@ -109,7 +107,7 @@
     top: 70px;
     right: 10%;
     width: auto;
-    color: var(--color-text); /* Match text color */
+    color: var(--color-text); 
 }
 
 

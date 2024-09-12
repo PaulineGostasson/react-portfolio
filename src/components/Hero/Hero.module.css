@@ -32,8 +32,8 @@
   .buttonContainer {
     display: flex;
     align-items: center;
-    gap: 20px; /* Adjust this for spacing between the buttons */
-    margin-top: 20px; /* Adjust the space between the buttons and content */
+    gap: 20px; 
+    margin-top: 20px; 
   }
   
   .contactBtn,
