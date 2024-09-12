@@ -7,12 +7,12 @@
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
-  justify-content: space-between; /* Evenly distribute space */
+  justify-content: space-between; 
   align-items: center;
   width: 100%;
   padding: 58px 10%;
   gap: 40px;
-  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  flex-wrap: wrap; 
 }
 
 /* Text section styling */
@@ -53,8 +53,8 @@
   font-weight: 400;
   letter-spacing: 1.5px;
   transition: color 0.3s ease;
-  display: flex; /* Make both icon and text inline-flex */
-  align-items: center; /* Align icon and text in the middle */
+  display: flex; 
+  align-items: center; 
   gap: 10px;
 }
 
@@ -127,7 +127,7 @@
   }
 
   .link a {
-    font-size: 0px; /* Ensure the text doesn't disappear */
+    font-size: 0px; 
     gap: 5px;
   }
 
