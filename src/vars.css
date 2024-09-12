@@ -2,13 +2,13 @@
     /* Light Theme Colors */
     --color-text: #333333;
     --color-background: #ffffff;
-    --color-primary: #ffb6c1; /* Light Pink */
-    --color-secondary: #ffe4e1; /* Lavender Blush */
+    --color-primary: #ffb6dc; /* Light Pink */
+    --color-secondary: #ffa1e6; /* Lavender Blush */
     --color-accent: #fff0f5; /* Lavender */
   
     /* Light Theme Gradient */
-    --color-gradient-start: rgba(255, 182, 193, 1); /* Light Pink */
-  --color-gradient-end: rgba(255, 224, 224, 1);   /* Light Blush */
+    --color-gradient-start: rgb(254, 158, 215); /* Light Pink */
+    --color-gradient-end: rgba(255, 224, 224, 1);   /* Light Blush */
   }
   
   .dark-theme {
