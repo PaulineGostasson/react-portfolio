@@ -20,7 +20,7 @@
       "imageSrc": "projects/recipe-finder.png",
       "description": "A user-friendly recipe search app built with React. It allows users to input ingredients and discover relevant recipes using the Spoonacular API. The app features responsive design, interactive modals, and demonstrates my skills in API integration and dynamic UI development.",
       "skills": ["React", "CSS", "JavaScript"],
-      "demo": "https://recipe-finder-rho-red.vercel.app/",
+      "demo": "https://recipe-finder-six-sigma.vercel.app/",
       "source": "https://github.com/PaulineGostasson/recipe-finder"
     }
   ]
