@@ -58,12 +58,12 @@
     flex-shrink: 0;
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     object-fit: cover;
     margin-left: 50px;
+    transition: transform 0.5s ease; /* Smooth transformation */
     animation: float 3s ease-in-out infinite; /* Floating animation */
-    transition: transform 0.5s ease;
   }
+  
 
 
   /* Floating animation for the hero image */

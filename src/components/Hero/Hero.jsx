@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -13,18 +14,29 @@ export const Hero = () => {
           Let’s build something amazing together!
         </p>
         <div className={styles.buttonContainer}>
-  <a href="mailto:gostassonpauline@gmail.com" className={styles.contactBtn}>
-    Contact Me
-  </a>
-  <a href="/CV.pdf" download className={styles.downloadCvBtn}>
-    Download My CV
-  </a>
-</div>
+          <a href="mailto:gostassonpauline@gmail.com" className={styles.contactBtn}>
+            Contact Me
+          </a>
+          <a href="/CV.pdf" download className={styles.downloadCvBtn}>
+            Download My CV
+          </a>
+        </div>
       </div>
-      <img
+
+      {/* Add Framer Motion hover effect to the hero image */}
+      <motion.img
         src={getImageUrl("hero/heroImage.jpg")}
         alt="Hero image of me"
         className={styles.heroImg}
+        initial={{ borderRadius: "50%", scale: 1 }}  // Start as a circle
+        whileHover={{ 
+          borderRadius: ["50%", "20%", "10%"],  // Change shape on hover
+          scale: 1.2,  // Slightly enlarge
+        }}
+        transition={{ 
+          duration: 0.5, 
+          ease: "easeInOut" 
+        }}
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

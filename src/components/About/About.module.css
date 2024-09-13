@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: var(--color-bg); 
+  background-color: var(--color-secondary); 
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
